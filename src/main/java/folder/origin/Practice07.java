@@ -1,7 +1,7 @@
 package folder.origin;
 
 public class Practice07 {
-
+    int app7_a = 10;
     public static void main(String[] args) {
 
         Practice07 moneyRate =new Practice07 ();

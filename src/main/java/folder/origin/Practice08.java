@@ -10,10 +10,6 @@ public class Practice08 {
 
         System.out.println("베팅받은 금액 : " + commaNumber);
 
-
-
-
-
     }
 
     public String bettingNumber (long money) {
@@ -21,16 +17,16 @@ public class Practice08 {
 
         money = money*35;
 
-        long money1 = money/1000000000;
-        money=money%1000000000;
+        long money1 = money%1000;
+        money=money/1000;
 
-        long money2 = money/1000000;
-        money=money%1000000;
+        long money2 = money%1000;
+        money=money/1000;
 
-        long money3 = money/1000;
-        money=money%1000;
+        long money3 = money%1000;
+        money=money/1000;
 
-        String str = money1+","+money2+","+money3+","+money;
+        String str = money+","+money3+","+money2+","+money1;
 
         return str;
 
