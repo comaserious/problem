@@ -1,3 +1,5 @@
+package folder.origin;
+
 public class Practice03 {
 
 

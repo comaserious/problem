@@ -1,3 +1,5 @@
+package folder.origin;
+
 public class Practice04 {
 
     public static void main(String[] args) {
